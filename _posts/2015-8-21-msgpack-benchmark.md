@@ -55,6 +55,8 @@ data_100000 = [generate_small_data() for each in xrange(100000)]
 |    10,000    |   853   |  1200 | 191   | 82.9    |
 |    100,000   |   8660  | 12100 | 1920  | 851     |
 
+![Dumps operation time plot](/images/plot/2015-08-21-msgpack-benchmark-plot-dumps.png)
+
 # Loads function performance
 
 | Size of list | cPickle |  json | ujson | msgpack |

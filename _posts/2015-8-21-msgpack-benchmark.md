@@ -44,47 +44,10 @@ data_100000 = [generate_small_data() for each in xrange(100000)]
 
 # Dumps function performance
 
-<table>
-  <tr>
-    <th>Size of list</th>
-    <th>cPickle</th>
-    <th>json</th>
-    <th>ujson</th>
-    <th>msgpack</th>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td>0.823</td>
-    <td>1.080</td>
-    <td>0.175</td>
-    <td>0.0714</td>
-  </tr>
-  <tr>
-    <td>100</td>
-    <td>8.34</td>
-    <td>11.9</td>
-    <td>1.81</td>
-    <td>0.792</td>
-  </tr>
-  <tr>
-    <td>1,000</td>
-    <td>85</td>
-    <td>120</td>
-    <td>18.7</td>
-    <td>8.15</td>
-  </tr>
-  <tr>
-    <td>10,000</td>
-    <td>853</td>
-    <td>1200</td>
-    <td>191</td>
-    <td>82.9</td>
-  </tr>
-  <tr>
-    <td>100,000</td>
-    <td>8660</td>
-    <td>12100</td>
-    <td>1920</td>
-    <td>851</td>
-  </tr>
-</table>
+| Size of list | cPickle |  json | ujson | msgpack |
+|:------------:|:-------:|:-----:|:-----:|:-------:|
+|      10      |  0.823  | 1.080 | 0.175 | 0.0714  |
+|      100     |   8.34  |  11.9 | 1.81  | 0.792   |
+|     1,000    |    85   |  120  | 18.7  | 8.15    |
+|    10,000    |   853   |  1200 | 191   | 82.9    |
+|    100,000   |   8660  | 12100 | 1920  | 851     |

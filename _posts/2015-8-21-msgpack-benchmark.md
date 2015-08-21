@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Msgpack against the world of Python serializers
+tags: Python, benchmark
 ---
 
 > MessagePack is an efficient binary serialization format.
@@ -51,3 +52,13 @@ data_100000 = [generate_small_data() for each in xrange(100000)]
 |     1,000    |    85   |  120  | 18.7  | 8.15    |
 |    10,000    |   853   |  1200 | 191   | 82.9    |
 |    100,000   |   8660  | 12100 | 1920  | 851     |
+
+# Loads function performance
+
+| Size of list | cPickle |  json | ujson | msgpack |
+|:------------:|:-------:|:-----:|:-----:|:-------:|
+|      10      |  0.712  | 0.604 | 0.179 | 0.073   |
+|      100     |   7.25  |  6.46 | 2.37  | 0.82    |
+|     1,000    |   73.7  |  67.5 | 27.2  | 11.1    |
+|    10,000    |   764   |  699  | 287   | 115     |
+|    100,000   |   7710  |  7130 | 2840  | 1190    |

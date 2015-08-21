@@ -21,12 +21,12 @@ footer-links:
   email: nguyenhoan1988@gmail.com
   facebook:
   flickr:
-  github: 
+  github:
   instagram:
   linkedin: http://vn.linkedin.com/in/hoannguyen88
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: jekyllrb
+  twitter: https://twitter.com/HoanNguyen88
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -54,8 +54,6 @@ baseurl: ""
 #
 
 markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
 highlighter: pygments
 permalink: /:title/
 
@@ -70,6 +68,9 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jemoji
+
+redcarpet:
+  extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
 
 # Exclude these files from your production _site
 exclude:

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Msgpack against the world of Python serializers
-tags: Python, benchmark
+tags:
+- python
+- benchmark
 ---
 
 > MessagePack is an efficient binary serialization format.

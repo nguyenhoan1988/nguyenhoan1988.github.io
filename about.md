@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I am Hoan Nguyen, currently a data scientist. I love technology. I have been working for a while with Python and Python data science stack.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[nguyenhoan1988@gmail.com](mailto:nguyenhoan1988@gmail.com)

@@ -4,17 +4,19 @@
 table {
     border-collapse:collapse;
     border-spacing:0;
-    border:1px solid black;
+    border:1px solid #ddd;
 }
 
 td {
     text-align:left;
     font-weight:normal;
     vertical-align:middle;
-    border:1px solid black;
+    border:1px solid #ddd;
     padding:8px;
 }
 
-th {border: 1px solid black;
+th {
+    border: 1px solid #ddd;
     font-weight: bold;
-    padding:8px;}
+    padding:8px;
+}

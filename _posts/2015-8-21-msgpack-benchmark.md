@@ -62,3 +62,15 @@ data_100000 = [generate_small_data() for each in xrange(100000)]
 |     1,000    |   73.7  |  67.5 | 27.2  | 11.1    |
 |    10,000    |   764   |  699  | 287   | 115     |
 |    100,000   |   7710  |  7130 | 2840  | 1190    |
+
+# Size of the serialized message
+
+The size of the serialized message from these libraries is measured in *KB*
+
+| Size of list | cPickle |   json  |  ujson  | msgpack |
+|:------------:|:-------:|:-------:|:-------:|:-------:|
+|      10      |    32   |    32   | 28      | 16      |
+|      100     |   300   |   320   | 244     | 140     |
+|     1,000    |  2,968  |  3,168  | 2,404   | 1,372   |
+|    10,000    |  29,704 |  31,676 | 24,016  | 13,692  |
+|    100,000   | 297,312 | 316,744 | 240,132 | 1190    |

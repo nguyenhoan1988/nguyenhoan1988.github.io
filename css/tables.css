@@ -20,3 +20,15 @@ th {
     font-weight: bold;
     padding:8px;
 }
+
+div.bk-plot-wrapper table {
+    border: none;
+}
+
+div.bk-plot-wrapper td {
+    border: none;
+}
+
+div.bk-plot-wrapper th {
+    border: none;
+}
